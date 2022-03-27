@@ -3,7 +3,7 @@ import avatarImage from '../../assets/images/avatar-placeholder.png'
 
 function About() {
     return (
-        <section className="p-3">
+        <section className="p-3" style={{fontFamily: "'Frank Ruhl Libre', serif"}}>
             <div>
                 <h1 className="py-3">About Me</h1>
                 {/* include a picture of an avatar/me here */}
