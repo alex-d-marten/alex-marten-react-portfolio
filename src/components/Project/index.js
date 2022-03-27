@@ -12,7 +12,7 @@ function Project() {
         <div className="row g-5">
             <div className="col-12">
                 <div className="card mx-auto">
-                    <div className="hover-overlay ripple" data-mdb-ripple-color="light">
+                    <div className="hover-overlay ripple bg-image" data-mdb-ripple-color="light">
                         <img src={socialNetworkApiImg} className="img-fluid" alt="Social Network API"/>
                         <a href="https://github.com/alex-d-marten/social-network-api" target="_blank" rel="noopener noreferrer">
                             <div className="mask" style={{ backgroundColor: "rgba(251, 251, 251, 0.15)" }}></div>
@@ -28,7 +28,7 @@ function Project() {
             </div>
             <div className="col-12">
                 <div className="card mx-auto">
-                    <div className="hover-overlay ripple" data-mdb-ripple-color="light">
+                    <div className="hover-overlay ripple bg-image" data-mdb-ripple-color="light">
                         <img src={lookMeUpImg} className="img-fluid" alt="Look Me Up!"/>
                         <a href="https://github.com/asadi80/look-me-up" target="_blank" rel="noopener noreferrer">
                             <div className="mask" style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}></div>
@@ -44,7 +44,7 @@ function Project() {
             </div>
             <div className="col-12">
                 <div className="card mx-auto">
-                    <div className="hover-overlay ripple" data-mdb-ripple-color="light">
+                    <div className="hover-overlay ripple bg-image" data-mdb-ripple-color="light">
                         <img src={techBlogImg} className="img-fluid" alt="Tech Blog"/>
                         <a href="https://github.com/alex-d-marten/tech-blog" target="_blank" rel="noopener noreferrer">
                             <div className="mask" style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}></div>
@@ -60,7 +60,7 @@ function Project() {
             </div>
             <div className="col-12">
                 <div className="card mx-auto">
-                    <div className="hover-overlay ripple" data-mdb-ripple-color="light">
+                    <div className="hover-overlay ripple bg-image" data-mdb-ripple-color="light">
                         <img src={gotHopsImg} className="img-fluid" alt="Got Hops"/>
                         <a href="https://github.com/scottrohrig/got-hops" target="_blank" rel="noopener noreferrer">
                             <div className="mask" style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}></div>
@@ -76,7 +76,7 @@ function Project() {
             </div>
             <div className="col-12">
                 <div className="card mx-auto">
-                    <div className="hover-overlay ripple" data-mdb-ripple-color="light">
+                    <div className="hover-overlay ripple bg-image" data-mdb-ripple-color="light">
                         <img src={readmeGeneratorImg} className="img-fluid" alt="Read Me Generator"/>
                         <a href="https://github.com/alex-d-marten/readme-generator" target="_blank" rel="noopener noreferrer">
                             <div className="mask" style={{ backgroundColor: "rgba(251, 251, 251, 0.4)" }}></div>
@@ -92,7 +92,7 @@ function Project() {
             </div>
             <div className="col-12">
                 <div className="card mx-auto">
-                    <div className="hover-overlay ripple" data-mdb-ripple-color="light">
+                    <div className="hover-overlay ripple bg-image" data-mdb-ripple-color="light">
                         <img src={jotItDownImg} className="img-fluid" alt="Jot It Down"/>
                         <a href="https://github.com/alex-d-marten/jot-it-down" target="_blank" rel="noopener noreferrer">
                             <div className="mask" style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}></div>

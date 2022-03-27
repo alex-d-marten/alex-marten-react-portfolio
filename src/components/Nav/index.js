@@ -11,13 +11,16 @@ function Nav(props) {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container-fluid">
-                <a className="navbar-brand mt-2 mt-lg-0" href="/about" onClick={() => {
+                <NavLink 
+                className="navbar-brand mt-2 mt-lg-0" 
+                to="/about"
+                onClick={() => {
                     setContactSelected(false)
                     setProjectSelected(false)
                     setResumeSelected(false)
                 }}>
                     <h1>Alex Marten</h1>
-                </a>
+                </NavLink>
                 <div className="d-flex align-items-center">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0 h4">
                         <li className="nav-item">
