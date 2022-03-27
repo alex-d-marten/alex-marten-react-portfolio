@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { validateEmail } from "../../utils/helpers";
 
 function Contact() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '',});
@@ -7,7 +8,12 @@ function Contact() {
 
     function handleChange(e) {
         if(e.target.name === 'email') {
-            console.log('Email selected')
+            const isValidEmail = validateEmail(e.target.value);
+            if(!isValidEmail) {
+                setErrorMessage('The email entered is invalid.');
+            } else {
+                setErrorMessage('');
+            }
         } else {
             if(!e.target.value.length) {
                 setErrorMessage(`${e.target.name} is required!`)
@@ -22,7 +28,7 @@ function Contact() {
 
     function handleSubmit(e) {
         e.preventDefault();
-        alert('This form is in progress, please email me at "alexdmarten@gmail.com" or contact me on LinkedIn');
+        alert('This form is in progress, please email me at `alexdmarten@gmail.com` or contact me on LinkedIn');
     }
 
     return (
