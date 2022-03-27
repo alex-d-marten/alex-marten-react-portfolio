@@ -3,12 +3,12 @@ import resumePdf from '../../assets/files/Alex_Marten_Web_Developer_Resume.pdf';
 
 function Resume() {
     return (
-        <div className="resume-body" style={{fontFamily: "'Frank Ruhl Libre', serif"}}>
+        <div className="resume-body">
             <h2 className="p-3">My Resume</h2>
             <div className="resume-download">
                 <h3 className="p-3">
                     Download my 
-                    <a href={resumePdf} target="_blank" rel="noopener noreferrer" className="text-info"> Resume</a>
+                    <a href={resumePdf} target="_blank" rel="noopener noreferrer"> Resume</a>
                 </h3>
             </div>
             <div className="resume-text p-3">
