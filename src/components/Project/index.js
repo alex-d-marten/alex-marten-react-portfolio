@@ -9,7 +9,7 @@ import jotItDownImg from '../../assets/images/jot-it-down-img.png';
 
 function Project() {
     return (
-        <div className="row g-4">
+        <div className="row g-5">
             <div className="col-12">
                 <div className="card mx-auto">
                     <div className="hover-overlay ripple" data-mdb-ripple-color="light">

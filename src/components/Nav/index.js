@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 
 function Nav(props) {
     const {
@@ -10,7 +11,7 @@ function Nav(props) {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container-fluid">
-                <a className="navbar-brand mt-2 mt-lg-0" href="#about" onClick={() => {
+                <a className="navbar-brand mt-2 mt-lg-0" href="/about" onClick={() => {
                     setContactSelected(false)
                     setProjectSelected(false)
                     setResumeSelected(false)
@@ -20,33 +21,49 @@ function Nav(props) {
                 <div className="d-flex align-items-center">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0 h4">
                         <li className="nav-item">
-                            <a className="nav-link" href="#about" onClick={() => {
+                            <NavLink 
+                            to="/about"
+                            className="nav-link" 
+                            activeStyle={{ color: 'red' }}
+                            onClick={() => {
                                 setContactSelected(false)
                                 setProjectSelected(false)
                                 setResumeSelected(false)
-                            }}>About Me</a>
+                            }}>About Me</NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#portfolio" onClick={() => {
+                            <NavLink 
+                            className="nav-link" 
+                            to="/portfolio"
+                            activeStyle={{ color: 'red' }}
+                            onClick={() => {
                                 setProjectSelected(true)
                                 setContactSelected(false)
                                 setResumeSelected(false)
-                            }}>Portfolio</a>
+                            }}>Portfolio</NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#contact" onClick={() => {
+                            <NavLink 
+                            className="nav-link" 
+                            to="/contact" 
+                            activeStyle={{ color: 'red' }}
+                            onClick={() => {
                                 setContactSelected(true)
                                 setProjectSelected(false)
                                 setResumeSelected(false)
                                 }}
-                            >Contact</a>
+                            >Contact</NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#resume" onClick={() => {
+                            <NavLink 
+                            className="nav-link" 
+                            to="/resume" 
+                            activeStyle={{ color: 'red' }}
+                            onClick={() => {
                                 setResumeSelected(true)
                                 setProjectSelected(false)
                                 setContactSelected(false)
-                            }}>Resume</a>
+                            }}>Resume</NavLink>
                         </li>
                     </ul>
                 </div>
