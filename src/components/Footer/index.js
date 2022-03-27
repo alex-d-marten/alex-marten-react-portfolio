@@ -8,6 +8,8 @@ function Footer() {
                 <a
                     className="btn btn-link btn-floating btn-lg text-dark m-1"
                     href="https://www.facebook.com/alex.marten.58"
+                    target="_blank" 
+                    rel="noopener noreferrer"
                     role="button"
                     data-mdb-ripple-color="dark"
                     ><i className="fab fa-2x fa-facebook-f"></i

@@ -1,6 +1,11 @@
 import React from 'react';
 
-function Nav() {
+function Nav(props) {
+    const {
+        contactSelected,
+        setContactSelected
+    } = props;
+
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container-fluid">
@@ -16,7 +21,7 @@ function Nav() {
                             <a className="nav-link" href="#portfolio">Portfolio</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#contact">Contact</a>
+                            <a className="nav-link" href="#contact" onClick={() => setContactSelected(true)}>Contact</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#resume">Resume</a>
