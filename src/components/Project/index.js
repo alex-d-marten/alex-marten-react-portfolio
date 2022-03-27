@@ -9,7 +9,7 @@ import jotItDownImg from '../../assets/images/jot-it-down-img.png';
 
 function Project() {
     return (
-        <div className="row g-5">
+        <div className="row g-5 py-5 my-5">
             <div className="col-12">
                 <div className="card mx-auto">
                     <div className="hover-overlay ripple bg-image" data-mdb-ripple-color="light">
@@ -18,7 +18,7 @@ function Project() {
                             <div className="mask" style={{ backgroundColor: "rgba(251, 251, 251, 0.15)" }}></div>
                         </a>
                     </div>
-                    <div className="card-body bg-dark">
+                    <div className="card-body bg-dark" style={{ fontFamily: "'Frank Ruhl Libre', serif" }}>
                         <h5 className="card-title text-light">Social Network API</h5>
                         <a href="https://github.com/alex-d-marten/" target="_blank" rel="noopener noreferrer">
                             <img src={githubIcon} className="img-fluid" alt="githubIcon" style={{ maxWidth: "10%" }}/>
@@ -34,7 +34,7 @@ function Project() {
                             <div className="mask" style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}></div>
                         </a>
                     </div>
-                    <div className="card-body">
+                    <div className="card-body" style={{ fontFamily: "'Frank Ruhl Libre', serif" }}>
                         <h5 className="card-title">Look Me Up! Full Stack Project</h5>
                         <a href="https://github.com/alex-d-marten/" target="_blank" rel="noopener noreferrer">
                             <img src={githubIcon} className="img-fluid" alt="githubIcon" style={{ maxWidth: "10%" }}/>
@@ -53,7 +53,7 @@ function Project() {
                         <a href="https://github.com/alex-d-marten/" target="_blank" rel="noopener noreferrer">
                             <img src={githubIcon} className="img-fluid" alt="githubIcon" style={{ maxWidth: "10%" }}/>
                         </a>
-                    <div className="card-body">
+                    <div className="card-body" style={{ fontFamily: "'Frank Ruhl Libre', serif" }}>
                         <h5 className="card-title">Tech Blog</h5>
                     </div>
                 </div>
@@ -66,7 +66,7 @@ function Project() {
                             <div className="mask" style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}></div>
                         </a>
                     </div>
-                    <div className="card-body">
+                    <div className="card-body" style={{ fontFamily: "'Frank Ruhl Libre', serif" }}>
                         <h5 className="card-title">Got Hops Brewery Finder</h5>
                         <a href="https://github.com/alex-d-marten/" target="_blank" rel="noopener noreferrer">
                             <img src={githubIcon} className="img-fluid" alt="githubIcon" style={{ maxWidth: "10%" }}/>
@@ -82,7 +82,7 @@ function Project() {
                             <div className="mask" style={{ backgroundColor: "rgba(251, 251, 251, 0.4)" }}></div>
                         </a>
                     </div>
-                    <div className="card-body">
+                    <div className="card-body" style={{ fontFamily: "'Frank Ruhl Libre', serif" }}>
                         <h5 className="card-title">Professional README Generator</h5>
                         <a href="https://github.com/alex-d-marten/" target="_blank" rel="noopener noreferrer">
                             <img src={githubIcon} className="img-fluid" alt="githubIcon" style={{ maxWidth: "10%" }}/>
@@ -98,7 +98,7 @@ function Project() {
                             <div className="mask" style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}></div>
                         </a>
                     </div>
-                    <div className="card-body">
+                    <div className="card-body" style={{ fontFamily: "'Frank Ruhl Libre', serif" }}>
                         <h5 className="card-title">Jot It Down Note Taking App</h5>
                         <a href="https://github.com/alex-d-marten/" target="_blank" rel="noopener noreferrer">
                             <img src={githubIcon} className="img-fluid" alt="githubIcon" style={{ maxWidth: "10%" }}/>
