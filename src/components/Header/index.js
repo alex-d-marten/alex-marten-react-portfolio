@@ -23,19 +23,21 @@ function Header() {
     };
 
     return (
-        <header>
-            <Nav
-            contactSelected={contactSelected}
-            setContactSelected={setContactSelected}
-            projectSelected={projectSelected}
-            setProjectSelected={setProjectSelected}
-            resumeSelected={resumeSelected}
-            setResumeSelected={setResumeSelected}
-            ></Nav>
+        <div>
+            <header>
+                <Nav
+                contactSelected={contactSelected}
+                setContactSelected={setContactSelected}
+                projectSelected={projectSelected}
+                setProjectSelected={setProjectSelected}
+                resumeSelected={resumeSelected}
+                setResumeSelected={setResumeSelected}
+                ></Nav>
+            </header>
             <main>
                 {renderContent()}
             </main>
-        </header>
+        </div>
     )
 };
 

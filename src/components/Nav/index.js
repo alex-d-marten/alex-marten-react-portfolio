@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 function Nav(props) {
@@ -9,7 +9,7 @@ function Nav(props) {
     } = props;
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg navbar-light">
             <div className="container-fluid">
                 <NavLink 
                 className="navbar-brand mt-2 mt-lg-0" 
@@ -27,7 +27,7 @@ function Nav(props) {
                             <NavLink 
                             to="/about"
                             className="nav-link" 
-                            activeStyle={{ color: 'red' }}
+                            activeStyle={{ color: 'rgba(226, 226, 226, 1)' }}
                             onClick={() => {
                                 setContactSelected(false)
                                 setProjectSelected(false)
@@ -38,7 +38,7 @@ function Nav(props) {
                             <NavLink 
                             className="nav-link" 
                             to="/portfolio"
-                            activeStyle={{ color: 'red' }}
+                            activeStyle={{ color: 'rgba(226, 226, 226, 1)' }}
                             onClick={() => {
                                 setProjectSelected(true)
                                 setContactSelected(false)
@@ -49,7 +49,7 @@ function Nav(props) {
                             <NavLink 
                             className="nav-link" 
                             to="/contact" 
-                            activeStyle={{ color: 'red' }}
+                            activeStyle={{ color: 'rgba(226, 226, 226, 1)' }}
                             onClick={() => {
                                 setContactSelected(true)
                                 setProjectSelected(false)
@@ -61,7 +61,7 @@ function Nav(props) {
                             <NavLink 
                             className="nav-link" 
                             to="/resume" 
-                            activeStyle={{ color: 'red' }}
+                            activeStyle={{ color: 'rgba(226, 226, 226, 1)' }}
                             onClick={() => {
                                 setResumeSelected(true)
                                 setProjectSelected(false)

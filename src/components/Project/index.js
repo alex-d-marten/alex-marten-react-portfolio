@@ -1,5 +1,5 @@
 import React from "react";
-import githubIcon from '../../assets/icons/Octocat.png';
+import githubIcon from '../../assets/icons/github-icon.png';
 import socialNetworkApiImg from '../../assets/images/social-network-api.png'
 import lookMeUpImg from '../../assets/images/look-me-up.png';
 import techBlogImg from '../../assets/images/tech-blog-img.png';
@@ -18,8 +18,8 @@ function Project() {
                             <div className="mask" style={{ backgroundColor: "rgba(251, 251, 251, 0.15)" }}></div>
                         </a>
                     </div>
-                    <div className="card-body">
-                        <h5 className="card-title">Social Network API</h5>
+                    <div className="card-body bg-dark">
+                        <h5 className="card-title text-light">Social Network API</h5>
                         <a href="https://github.com/alex-d-marten/" target="_blank" rel="noopener noreferrer">
                             <img src={githubIcon} className="img-fluid" alt="githubIcon" style={{ maxWidth: "10%" }}/>
                         </a>
