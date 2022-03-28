@@ -27,6 +27,14 @@ footer {
     width: 800px;
 }
 
+.navActive {
+    color: rgba(226, 226, 226, 1);
+}
+
+.nav-item {
+    cursor: pointer;
+}
+
 
 @media screen and (max-width: 980px) {
     
