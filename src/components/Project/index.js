@@ -34,8 +34,8 @@ function Project() {
                             <div className="mask" style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}></div>
                         </a>
                     </div>
-                    <div className="card-body" style={{ fontFamily: "'Frank Ruhl Libre', serif" }}>
-                        <h5 className="card-title">Look Me Up! Full Stack Project</h5>
+                    <div className="card-body bg-dark" style={{ fontFamily: "'Frank Ruhl Libre', serif" }}>
+                        <h5 className="card-title text-light">Look Me Up! Full Stack Project</h5>
                         <a href="https://github.com/alex-d-marten/" target="_blank" rel="noopener noreferrer">
                             <img src={githubIcon} className="img-fluid" alt="githubIcon" style={{ maxWidth: "10%" }}/>
                         </a>
@@ -53,8 +53,8 @@ function Project() {
                         <a href="https://github.com/alex-d-marten/" target="_blank" rel="noopener noreferrer">
                             <img src={githubIcon} className="img-fluid" alt="githubIcon" style={{ maxWidth: "10%" }}/>
                         </a>
-                    <div className="card-body" style={{ fontFamily: "'Frank Ruhl Libre', serif" }}>
-                        <h5 className="card-title">Tech Blog</h5>
+                    <div className="card-body bg-dark" style={{ fontFamily: "'Frank Ruhl Libre', serif" }}>
+                        <h5 className="card-title text-light">Tech Blog</h5>
                     </div>
                 </div>
             </div>
@@ -66,8 +66,8 @@ function Project() {
                             <div className="mask" style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}></div>
                         </a>
                     </div>
-                    <div className="card-body" style={{ fontFamily: "'Frank Ruhl Libre', serif" }}>
-                        <h5 className="card-title">Got Hops Brewery Finder</h5>
+                    <div className="card-body bg-dark" style={{ fontFamily: "'Frank Ruhl Libre', serif" }}>
+                        <h5 className="card-title text-light">Got Hops Brewery Finder</h5>
                         <a href="https://github.com/alex-d-marten/" target="_blank" rel="noopener noreferrer">
                             <img src={githubIcon} className="img-fluid" alt="githubIcon" style={{ maxWidth: "10%" }}/>
                         </a>
@@ -82,8 +82,8 @@ function Project() {
                             <div className="mask" style={{ backgroundColor: "rgba(251, 251, 251, 0.4)" }}></div>
                         </a>
                     </div>
-                    <div className="card-body" style={{ fontFamily: "'Frank Ruhl Libre', serif" }}>
-                        <h5 className="card-title">Professional README Generator</h5>
+                    <div className="card-body bg-dark" style={{ fontFamily: "'Frank Ruhl Libre', serif" }}>
+                        <h5 className="card-title text-light">Professional README Generator</h5>
                         <a href="https://github.com/alex-d-marten/" target="_blank" rel="noopener noreferrer">
                             <img src={githubIcon} className="img-fluid" alt="githubIcon" style={{ maxWidth: "10%" }}/>
                         </a>
@@ -98,8 +98,8 @@ function Project() {
                             <div className="mask" style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}></div>
                         </a>
                     </div>
-                    <div className="card-body" style={{ fontFamily: "'Frank Ruhl Libre', serif" }}>
-                        <h5 className="card-title">Jot It Down Note Taking App</h5>
+                    <div className="card-body bg-dark" style={{ fontFamily: "'Frank Ruhl Libre', serif" }}>
+                        <h5 className="card-title text-light">Jot It Down Note Taking App</h5>
                         <a href="https://github.com/alex-d-marten/" target="_blank" rel="noopener noreferrer">
                             <img src={githubIcon} className="img-fluid" alt="githubIcon" style={{ maxWidth: "10%" }}/>
                         </a>
