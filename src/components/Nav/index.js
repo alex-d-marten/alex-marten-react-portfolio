@@ -1,28 +1,20 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 function Nav(props) {
-    const [categories] = useState(['About Me', 'Portfolio', 'Contact', 'Resume']);
-    const [currentCategory, setCurrentCategory] = useState(categories);
-
     const {
         setContactSelected,
         setProjectSelected,
         setResumeSelected,
+        categories,
+        currentCategory,
+        setCurrentCategory
     } = props;
     
 
     return (
         <nav className="navbar navbar-expand-lg navbar-light">
             <div className="container-fluid">
-                <li 
-                className="nav-item navbar-brand mt-2 mt-lg-0" 
-                onClick={() => {
-                    setContactSelected(false)
-                    setProjectSelected(false)
-                    setResumeSelected(false)
-                }}>
-                    <h1>Alex Marten</h1>
-                </li>
+                <h1 className="p-2">Alex Marten</h1>
                 <div className="d-flex align-items-center">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0 h4">
                             {categories.map((category) => (
