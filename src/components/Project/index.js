@@ -50,11 +50,11 @@ function Project() {
                             <div className="mask" style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}></div>
                         </a>
                     </div>
+                    <div className="card-body bg-dark" style={{ fontFamily: "'Frank Ruhl Libre', serif" }}>
+                        <h5 className="card-title text-light">Tech Blog</h5>
                         <a href="https://github.com/alex-d-marten/" target="_blank" rel="noopener noreferrer">
                             <img src={githubIcon} className="img-fluid" alt="githubIcon" style={{ maxWidth: "10%" }}/>
                         </a>
-                    <div className="card-body bg-dark" style={{ fontFamily: "'Frank Ruhl Libre', serif" }}>
-                        <h5 className="card-title text-light">Tech Blog</h5>
                     </div>
                 </div>
             </div>
