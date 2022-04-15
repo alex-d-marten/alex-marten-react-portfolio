@@ -6,10 +6,27 @@ import techBlogImg from '../../assets/images/tech-blog-img.png';
 import gotHopsImg from '../../assets/images/got-hops-img.png';
 import readmeGeneratorImg from '../../assets/images/readme-generator-img.png';
 import jotItDownImg from '../../assets/images/jot-it-down-img.png';
+import onlyPetsImg from '../../assets/images/0nlypets.png'
 
 function Project() {
     return (
         <div className="row g-5 py-5 my-5">
+            <div className="col-12">
+                <div className="card mx-auto">
+                    <div className="hover-overlay ripple bg-image" data-mdb-ripple-color="light">
+                        <img src={onlyPetsImg} className="img-fluid" alt="Only Pets MERN Project"/>
+                        <a href="https://alex-d-marten-0nlypets.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                            <div className="mask" style={{ backgroundColor: "rgba(251, 251, 251, 0.15)" }}></div>
+                        </a>
+                    </div>
+                    <div className="card-body bg-dark" style={{ fontFamily: "'Frank Ruhl Libre', serif" }}>
+                        <h5 className="card-title text-light">0nlyPets</h5>
+                        <a href="https://github.com/alex-d-marten/" target="_blank" rel="noopener noreferrer">
+                            <img src={githubIcon} className="img-fluid" alt="githubIcon" style={{ maxWidth: "10%" }}/>
+                        </a>
+                    </div>
+                </div>
+            </div>
             <div className="col-12">
                 <div className="card mx-auto">
                     <div className="hover-overlay ripple bg-image" data-mdb-ripple-color="light">
