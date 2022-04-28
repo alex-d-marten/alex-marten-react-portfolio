@@ -48,29 +48,30 @@ html, body {
 }
 
 body {
-  background-color: rgb(58, 58, 58) !important;
-  color: aliceblue !important;
+  background-color:floralwhite !important;
+  color: black !important;
 }
 
 header {
-  background: rgb(2,0,36);
-  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(145,208,210,1) 46%, rgba(0,212,255,1) 100%);
+  background: rgb(32, 77, 255);
   font-family: 'Frank Ruhl Libre', serif;
 }
 
 footer {
-  background: rgba(226, 226, 226, 1);
+  background: rgb(32, 77, 255);
   position: fixed;
   width: 100%;
   bottom: 0;
-  height: 50px;
+  height: 60px;
 }
-.card {
-  width: 800px;
+
+.card-img-top {
+  height: 30vw;
+  object-fit: cover;
 }
 
 .navActive {
-  color: rgb(34, 34, 34);
+  color: floralwhite;
 }
 
 .nav-item {
@@ -89,5 +90,9 @@ footer {
 @media screen and (max-width: 575px) {
   .card {
       width: 90%;
+  }
+
+  .card-img-top {
+    height: 60vw;
   }
 }

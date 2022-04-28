@@ -39,7 +39,7 @@ function Header() {
                 setResumeSelected={setResumeSelected}
                 ></Nav>
             </header>
-            <main>
+            <main className="container">
                 {renderContent()}
             </main>
         </div>
