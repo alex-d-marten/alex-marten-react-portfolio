@@ -21,7 +21,7 @@ function Project() {
                     </div>
                     <div className="card-body bg-dark" style={{ fontFamily: "'Frank Ruhl Libre', serif" }}>
                         <h5 className="card-title text-light">0nlyPets</h5>
-                        <a href="https://github.com/alex-d-marten/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/alex-d-marten/0nlypets" target="_blank" rel="noopener noreferrer">
                             <img src={githubIcon} className="img-fluid" alt="githubIcon" style={{ maxWidth: "10%" }}/>
                         </a>
                     </div>
@@ -37,7 +37,7 @@ function Project() {
                     </div>
                     <div className="card-body bg-dark" style={{ fontFamily: "'Frank Ruhl Libre', serif" }}>
                         <h5 className="card-title text-light">Social Network API</h5>
-                        <a href="https://github.com/alex-d-marten/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/alex-d-marten/social-network-api" target="_blank" rel="noopener noreferrer">
                             <img src={githubIcon} className="img-fluid" alt="githubIcon" style={{ maxWidth: "10%" }}/>
                         </a>
                     </div>
@@ -47,13 +47,13 @@ function Project() {
                 <div className="card w-100">
                     <div className="hover-overlay ripple bg-image" data-mdb-ripple-color="light">
                         <img src={lookMeUpImg} className="card-img-top" alt="Look Me Up!"/>
-                        <a href="https://github.com/asadi80/look-me-up" target="_blank" rel="noopener noreferrer">
+                        <a href="https://look-meup.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                             <div className="mask" style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}></div>
                         </a>
                     </div>
                     <div className="card-body bg-dark" style={{ fontFamily: "'Frank Ruhl Libre', serif" }}>
                         <h5 className="card-title text-light">Look Me Up! Full Stack Project</h5>
-                        <a href="https://github.com/alex-d-marten/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/asadi80/look-me-up" target="_blank" rel="noopener noreferrer">
                             <img src={githubIcon} className="img-fluid" alt="githubIcon" style={{ maxWidth: "10%" }}/>
                         </a>
                     </div>
@@ -63,13 +63,13 @@ function Project() {
                 <div className="card w-100">
                     <div className="hover-overlay ripple bg-image" data-mdb-ripple-color="light">
                         <img src={techBlogImg} className="card-img-top" alt="Tech Blog"/>
-                        <a href="https://github.com/alex-d-marten/tech-blog" target="_blank" rel="noopener noreferrer">
+                        <a href="https://alex-d-marten-tech-blog.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                             <div className="mask" style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}></div>
                         </a>
                     </div>
                     <div className="card-body bg-dark" style={{ fontFamily: "'Frank Ruhl Libre', serif" }}>
                         <h5 className="card-title text-light">Tech Blog</h5>
-                        <a href="https://github.com/alex-d-marten/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/alex-d-marten/tech-blog" target="_blank" rel="noopener noreferrer">
                             <img src={githubIcon} className="img-fluid" alt="githubIcon" style={{ maxWidth: "10%" }}/>
                         </a>
                     </div>
@@ -79,13 +79,13 @@ function Project() {
                 <div className="card w-100">
                     <div className="hover-overlay ripple bg-image" data-mdb-ripple-color="light">
                         <img src={gotHopsImg} className="card-img-top" alt="Got Hops"/>
-                        <a href="https://github.com/scottrohrig/got-hops" target="_blank" rel="noopener noreferrer">
+                        <a href="https://scottrohrig.github.io/got-hops/" target="_blank" rel="noopener noreferrer">
                             <div className="mask" style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}></div>
                         </a>
                     </div>
                     <div className="card-body bg-dark" style={{ fontFamily: "'Frank Ruhl Libre', serif" }}>
                         <h5 className="card-title text-light">Got Hops Brewery Finder</h5>
-                        <a href="https://github.com/alex-d-marten/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/scottrohrig/got-hops" target="_blank" rel="noopener noreferrer">
                             <img src={githubIcon} className="img-fluid" alt="githubIcon" style={{ maxWidth: "10%" }}/>
                         </a>
                     </div>
@@ -101,7 +101,7 @@ function Project() {
                     </div>
                     <div className="card-body bg-dark" style={{ fontFamily: "'Frank Ruhl Libre', serif" }}>
                         <h5 className="card-title text-light">Professional README Generator</h5>
-                        <a href="https://github.com/alex-d-marten/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/alex-d-marten/readme-generator" target="_blank" rel="noopener noreferrer">
                             <img src={githubIcon} className="img-fluid" alt="githubIcon" style={{ maxWidth: "10%" }}/>
                         </a>
                     </div>
@@ -111,13 +111,13 @@ function Project() {
                 <div className="card w-100">
                     <div className="hover-overlay ripple bg-image" data-mdb-ripple-color="light">
                         <img src={jotItDownImg} className="card-img-top" alt="Jot It Down"/>
-                        <a href="https://github.com/alex-d-marten/jot-it-down" target="_blank" rel="noopener noreferrer">
+                        <a href="https://alex-d-marten-jot-it-down.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                             <div className="mask" style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}></div>
                         </a>
                     </div>
                     <div className="card-body bg-dark" style={{ fontFamily: "'Frank Ruhl Libre', serif" }}>
                         <h5 className="card-title text-light">Jot It Down Note Taking App</h5>
-                        <a href="https://github.com/alex-d-marten/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/alex-d-marten/jot-it-down" target="_blank" rel="noopener noreferrer">
                             <img src={githubIcon} className="img-fluid" alt="githubIcon" style={{ maxWidth: "10%" }}/>
                         </a>
                     </div>
