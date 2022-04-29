@@ -6,7 +6,7 @@ function Footer() {
             <div className="container">
                 <section className="mt-3">
                 <a
-                    className="text-dark m-2"
+                    className="text-light m-2"
                     href="https://www.facebook.com/alex.marten.58"
                     target="_blank" 
                     rel="noopener noreferrer"
@@ -15,7 +15,7 @@ function Footer() {
                     ><i className="fab fa-2x fa-facebook-f"></i
                 ></a>
                 <a
-                    className="text-dark m-2"
+                    className="text-light m-2"
                     href="https://www.linkedin.com/in/admarten"
                     target="_blank" 
                     rel="noopener noreferrer"
@@ -24,7 +24,7 @@ function Footer() {
                     ><i className="fab fa-2x fa-linkedin"></i
                 ></a>
                 <a
-                    className="text-dark m-2"
+                    className="text-light m-2"
                     href="https://github.com/alex-d-marten"
                     target="_blank" 
                     rel="noopener noreferrer"

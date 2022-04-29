@@ -20,9 +20,10 @@ function Project() {
                         </a>
                     </div>
                     <div className="card-body bg-dark" style={{ fontFamily: "'Frank Ruhl Libre', serif" }}>
-                        <h5 className="card-title text-light">0nlyPets</h5>
-                        <a href="https://github.com/alex-d-marten/0nlypets" target="_blank" rel="noopener noreferrer">
-                            <img src={githubIcon} className="img-fluid" alt="githubIcon" style={{ maxWidth: "10%" }}/>
+                        <h5 className="card-title text-light text-center">0nlyPets</h5>
+                        <p className="text-light">A social application where users can sign up and post pictures of their pets.</p>
+                        <a href="https://github.com/alex-d-marten/0nlypets" target="_blank" rel="noopener noreferrer" className="btn btn-outline-light">
+                            GitHub Repo
                         </a>
                     </div>
                 </div>
@@ -36,9 +37,10 @@ function Project() {
                         </a>
                     </div>
                     <div className="card-body bg-dark" style={{ fontFamily: "'Frank Ruhl Libre', serif" }}>
-                        <h5 className="card-title text-light">Social Network API</h5>
-                        <a href="https://github.com/alex-d-marten/social-network-api" target="_blank" rel="noopener noreferrer">
-                            <img src={githubIcon} className="img-fluid" alt="githubIcon" style={{ maxWidth: "10%" }}/>
+                        <h5 className="card-title text-light text-center">Social Network API</h5>
+                        <p className="text-light">An API that can handle CRUD operations for a Social Network website.</p>
+                        <a href="https://github.com/alex-d-marten/social-network-api" target="_blank" rel="noopener noreferrer" className="btn btn-outline-light">
+                            GitHub Repo
                         </a>
                     </div>
                 </div>

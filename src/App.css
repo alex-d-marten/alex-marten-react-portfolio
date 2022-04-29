@@ -49,17 +49,21 @@ html, body {
 }
 
 body {
-  background-color:floralwhite !important;
-  color: black !important;
+  background-color:azure !important;
+  color: floralwhite !important;
+}
+
+main {
+  color: black
 }
 
 header {
-  background: rgb(32, 77, 255);
+  background: black;
   font-family: 'Frank Ruhl Libre', serif;
 }
 
 footer {
-  background: rgb(32, 77, 255);
+  background: black;
   position: absolute;
   width: 100%;
   bottom: 0;
@@ -72,7 +76,7 @@ footer {
 }
 
 .navActive {
-  color: floralwhite;
+  color: rgb(54, 180, 243);
 }
 
 .nav-item {
