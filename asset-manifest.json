@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/alex-marten-react-portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/alex-marten-react-portfolio/static/js/main.a991eba1.js",
+    "main.css": "/alex-marten-react-portfolio/static/css/main.02e45157.css",
+    "main.js": "/alex-marten-react-portfolio/static/js/main.d0a3b1d1.js",
     "static/js/787.17eee8ad.chunk.js": "/alex-marten-react-portfolio/static/js/787.17eee8ad.chunk.js",
     "static/media/got-hops-img.png": "/alex-marten-react-portfolio/static/media/got-hops-img.8b011335de4ad7a28118.png",
     "static/media/0nlypets.png": "/alex-marten-react-portfolio/static/media/0nlypets.0a18094f12746d273dcb.png",
@@ -13,12 +13,12 @@
     "static/media/readme-generator-img.png": "/alex-marten-react-portfolio/static/media/readme-generator-img.929d5fef211d9e89bfa7.png",
     "static/media/jot-it-down-img.png": "/alex-marten-react-portfolio/static/media/jot-it-down-img.caa3a7d5cc3e3391b2cb.png",
     "index.html": "/alex-marten-react-portfolio/index.html",
-    "main.073c9b0a.css.map": "/alex-marten-react-portfolio/static/css/main.073c9b0a.css.map",
-    "main.a991eba1.js.map": "/alex-marten-react-portfolio/static/js/main.a991eba1.js.map",
+    "main.02e45157.css.map": "/alex-marten-react-portfolio/static/css/main.02e45157.css.map",
+    "main.d0a3b1d1.js.map": "/alex-marten-react-portfolio/static/js/main.d0a3b1d1.js.map",
     "787.17eee8ad.chunk.js.map": "/alex-marten-react-portfolio/static/js/787.17eee8ad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.a991eba1.js"
+    "static/css/main.02e45157.css",
+    "static/js/main.d0a3b1d1.js"
   ]
 }
