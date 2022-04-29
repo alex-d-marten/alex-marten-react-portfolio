@@ -4,6 +4,7 @@ import Contact from '../Contact';
 import About from '../About';
 import Project from '../Project';
 import Resume from '../Resume';
+import Footer from '../Footer';
 
 function Header() {
     const [contactSelected, setContactSelected] = useState(false);
@@ -39,9 +40,10 @@ function Header() {
                 setResumeSelected={setResumeSelected}
                 ></Nav>
             </header>
-            <main className="container">
+            <main className="container pb-5">
                 {renderContent()}
             </main>
+            <Footer></Footer>
         </div>
     )
 };

@@ -4,9 +4,9 @@ function Footer() {
     return (
         <footer className="text-center text-white">
             <div className="container">
-                <section className="mb-4">
+                <section className="mt-3">
                 <a
-                    className="btn btn-link btn-floating btn-lg text-dark m-1"
+                    className="text-dark m-2"
                     href="https://www.facebook.com/alex.marten.58"
                     target="_blank" 
                     rel="noopener noreferrer"
@@ -15,7 +15,7 @@ function Footer() {
                     ><i className="fab fa-2x fa-facebook-f"></i
                 ></a>
                 <a
-                    className="btn btn-link btn-floating btn-lg text-dark m-1"
+                    className="text-dark m-2"
                     href="https://www.linkedin.com/in/admarten"
                     target="_blank" 
                     rel="noopener noreferrer"
@@ -24,7 +24,7 @@ function Footer() {
                     ><i className="fab fa-2x fa-linkedin"></i
                 ></a>
                 <a
-                    className="btn btn-link btn-floating btn-lg text-dark m-1"
+                    className="text-dark m-2"
                     href="https://github.com/alex-d-marten"
                     target="_blank" 
                     rel="noopener noreferrer"

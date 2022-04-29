@@ -10,7 +10,7 @@ import onlyPetsImg from '../../assets/images/0nlypets.png'
 
 function Project() {
     return (
-        <div className="row row-cols-1 row-cols-md-2 g-4 py-5 my-5">
+        <div className="row row-cols-1 row-cols-md-2 g-4 py-5 mt-5">
             <div className="col">
                 <div className="card w-100">
                     <div className="hover-overlay ripple bg-image" data-mdb-ripple-color="light">

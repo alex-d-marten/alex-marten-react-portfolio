@@ -43,7 +43,8 @@ html, body {
   padding: 0;
   margin: 0;
   height: auto;
-  min-height: 100%;
+  position: relative;
+  min-height: 100vh;
   font-family: 'Frank Ruhl Libre', serif;
 }
 
@@ -59,14 +60,14 @@ header {
 
 footer {
   background: rgb(32, 77, 255);
-  position: fixed;
+  position: absolute;
   width: 100%;
   bottom: 0;
   height: 60px;
 }
 
 .card-img-top {
-  height: 30vw;
+  height: 400px;
   object-fit: cover;
 }
 
