@@ -21,9 +21,9 @@ function Project() {
                     </div>
                     <div className="card-body bg-dark" style={{ fontFamily: "'Frank Ruhl Libre', serif" }}>
                         <h5 className="card-title text-light text-center">0nlyPets</h5>
-                        <p className="text-light">A social application where users can sign up and post pictures of their pets.</p>
-                        <a href="https://github.com/alex-d-marten/0nlypets" target="_blank" rel="noopener noreferrer" className="btn btn-outline-light">
-                            GitHub Repo
+                        <p className="text-light">A social application where for pet owners.</p>
+                        <a href="https://github.com/alex-d-marten/0nlypets" target="_blank" rel="noopener noreferrer">
+                            <img src={githubIcon} className="img-fluid" alt="githubIcon" style={{ maxWidth: "10%" }}/>
                         </a>
                     </div>
                 </div>
@@ -39,8 +39,8 @@ function Project() {
                     <div className="card-body bg-dark" style={{ fontFamily: "'Frank Ruhl Libre', serif" }}>
                         <h5 className="card-title text-light text-center">Social Network API</h5>
                         <p className="text-light">An API that can handle CRUD operations for a Social Network website.</p>
-                        <a href="https://github.com/alex-d-marten/social-network-api" target="_blank" rel="noopener noreferrer" className="btn btn-outline-light">
-                            GitHub Repo
+                        <a href="https://github.com/alex-d-marten/social-network-api" target="_blank" rel="noopener noreferrer">
+                            <img src={githubIcon} className="img-fluid" alt="githubIcon" style={{ maxWidth: "10%" }}/>
                         </a>
                     </div>
                 </div>
@@ -54,7 +54,8 @@ function Project() {
                         </a>
                     </div>
                     <div className="card-body bg-dark" style={{ fontFamily: "'Frank Ruhl Libre', serif" }}>
-                        <h5 className="card-title text-light">Look Me Up! Full Stack Project</h5>
+                        <h5 className="card-title text-light text-center">Look Me Up! Full Stack Project</h5>
+                        <p className="text-light">The perfect E-Business Card with QR Code.</p>
                         <a href="https://github.com/asadi80/look-me-up" target="_blank" rel="noopener noreferrer">
                             <img src={githubIcon} className="img-fluid" alt="githubIcon" style={{ maxWidth: "10%" }}/>
                         </a>
@@ -70,7 +71,8 @@ function Project() {
                         </a>
                     </div>
                     <div className="card-body bg-dark" style={{ fontFamily: "'Frank Ruhl Libre', serif" }}>
-                        <h5 className="card-title text-light">Tech Blog</h5>
+                        <h5 className="card-title text-light text-center">Tech Blog</h5>
+                        <p className="text-light">A site for a tech community to discuss.</p>
                         <a href="https://github.com/alex-d-marten/tech-blog" target="_blank" rel="noopener noreferrer">
                             <img src={githubIcon} className="img-fluid" alt="githubIcon" style={{ maxWidth: "10%" }}/>
                         </a>
@@ -86,7 +88,8 @@ function Project() {
                         </a>
                     </div>
                     <div className="card-body bg-dark" style={{ fontFamily: "'Frank Ruhl Libre', serif" }}>
-                        <h5 className="card-title text-light">Got Hops Brewery Finder</h5>
+                        <h5 className="card-title text-light text-center">Got Hops Brewery Finder</h5>
+                        <p className="text-light">Search a local city and find breweries.</p>
                         <a href="https://github.com/scottrohrig/got-hops" target="_blank" rel="noopener noreferrer">
                             <img src={githubIcon} className="img-fluid" alt="githubIcon" style={{ maxWidth: "10%" }}/>
                         </a>
@@ -102,7 +105,8 @@ function Project() {
                         </a>
                     </div>
                     <div className="card-body bg-dark" style={{ fontFamily: "'Frank Ruhl Libre', serif" }}>
-                        <h5 className="card-title text-light">Professional README Generator</h5>
+                        <h5 className="card-title text-light text-center">Professional README Generator</h5>
+                        <p className="text-light">Generate a consistent quality README from the command line.</p>
                         <a href="https://github.com/alex-d-marten/readme-generator" target="_blank" rel="noopener noreferrer">
                             <img src={githubIcon} className="img-fluid" alt="githubIcon" style={{ maxWidth: "10%" }}/>
                         </a>
@@ -118,7 +122,8 @@ function Project() {
                         </a>
                     </div>
                     <div className="card-body bg-dark" style={{ fontFamily: "'Frank Ruhl Libre', serif" }}>
-                        <h5 className="card-title text-light">Jot It Down Note Taking App</h5>
+                        <h5 className="card-title text-light text-center">Jot It Down Note Taking App</h5>
+                        <p className="text-light">An easy to use note taking website.</p>
                         <a href="https://github.com/alex-d-marten/jot-it-down" target="_blank" rel="noopener noreferrer">
                             <img src={githubIcon} className="img-fluid" alt="githubIcon" style={{ maxWidth: "10%" }}/>
                         </a>
