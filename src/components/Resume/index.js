@@ -24,6 +24,7 @@ function Resume() {
                                 <li>C#</li>
                                 <li>SQL</li>
                                 <li>NoSQL (MongoDB)</li>
+                                <li>GraphQL</li>
                             </ul>
                         </div>
                     </li>
