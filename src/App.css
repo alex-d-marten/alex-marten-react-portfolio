@@ -83,6 +83,10 @@ footer {
   cursor: pointer;
 }
 
+.btn {
+  text-transform: unset !important;
+}
+
 
 @media screen and (max-width: 980px) {
 

@@ -31,30 +31,55 @@ function Contact() {
         alert('This form is in progress, please email me at `alexdmarten@gmail.com` or contact me on LinkedIn');
     }
 
-    const [showShow, setShowShow] = useState(false);
-
-    const toggleShow = () => setShowShow(!showShow);
-
-
     return (
         <div className="container m-5">
             <div className="row justify-content-between">
-                <div className="col-4">
-                    <a className="btn btn-primary" data-mdb-toggle="collapse" href="#emailCollapse" role="button" aria-expanded="false" aria-controls="emailCollapse">Email</a>
-                    <div className="collapse mt-3" id="emailCollapse">
-                        alexdmarten@gmail.com
+                <div className="my-3 col-sm-6 col-md-3">
+                    <div className="card">
+                        <a className="btn btn-outline-dark" href="mailto:alexdmarten@gmail.com" target="_blank" rel="noreferrer">
+                            <div className="card-body">
+                                <span>
+                                    <i className="fa-solid fa-envelope fa-xl"></i>
+                                </span>
+                                <div>Email</div>
+                            </div>
+                        </a>
                     </div>
                 </div>
-                <div className="col-4">
-                    <a className="btn btn-primary" data-mdb-toggle="collapse" href="#phoneCollapse" role="button" aria-expanded="false" aria-controls="phoneCollapse">Phone</a>
-                    <div className="collapse mt-3" id="phoneCollapse">
-                        916-303-6073
+                <div className="my-3 col-sm-6 col-md-3">
+                    <div className="card">
+                        <a className="btn btn-outline-dark" href="tel:1-916-303-6073" target="_blank" rel="noreferrer">
+                            <div className="card-body">
+                                <span>
+                                    <i className="fa-solid fa-phone fa-xl"></i>
+                                </span>
+                                <div>Call</div>
+                            </div>
+                        </a>
                     </div>
                 </div>
-                <div className="col-4">
-                    <a className="btn btn-primary" data-mdb-toggle="collapse" href="#liCollapse" role="button" aria-expanded="false" aria-controls="liCollapse">LinkedIn</a>
-                    <div className="collapse mt-3" id="liCollapse">
-                    www.linkedin.com/in/admarten
+                <div className="my-3 col-sm-6 col-md-3">
+                    <div className="card">
+                        <a className="btn btn-outline-dark" href="https://github.com/alex-d-marten" target="_blank" rel="noreferrer">
+                            <div className="card-body">
+                                <span>
+                                    <i className="fa-brands fa-github fa-xl"></i>
+                                </span>
+                                <div>Follow</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div className="my-3 col-sm-6 col-md-3">
+                    <div className="card">
+                        <a className="btn btn-outline-dark" href="https://www.linkedin.com/in/admarten" target="_blank" rel="noreferrer">
+                            <div className="card-body">
+                                <span>
+                                    <i className="fa-brands fa-linkedin fa-xl"></i>
+                                </span>
+                                <div>Connect</div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
