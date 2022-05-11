@@ -10,7 +10,7 @@ function Header() {
     const [contactSelected, setContactSelected] = useState(false);
     const [projectSelected, setProjectSelected] = useState(false);
     const [resumeSelected, setResumeSelected] = useState(false);
-    const [categories] = useState(['About Me', 'Portfolio', 'Contact', 'Resume']);
+    const [categories] = useState(['About Me', 'Portfolio', 'Contact', 'Qualifications']);
     const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
     function renderContent() {

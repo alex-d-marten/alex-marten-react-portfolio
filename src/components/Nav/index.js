@@ -26,7 +26,7 @@ function Nav(props) {
                                 >
                                     <span onClick={() => {
                                             setCurrentCategory(category)
-                                            if(category === 'Resume') {
+                                            if(category === 'Qualifications') {
                                                 setContactSelected(false)
                                                 setProjectSelected(false)
                                                 setResumeSelected(true)

@@ -87,6 +87,10 @@ footer {
   text-transform: unset !important;
 }
 
+.collapsible {
+  text-decoration: none;
+}
+
 
 @media screen and (max-width: 980px) {
 
