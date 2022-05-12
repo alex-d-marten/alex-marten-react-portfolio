@@ -1,38 +1,38 @@
-import React, { useState } from "react";
-import { validateEmail } from "../../utils/helpers";
+import React from "react";
+// import { validateEmail } from "../../utils/helpers";
 
 function Contact() {
-    const [formState, setFormState] = useState({ name: '', email: '', message: '',});
-    const { name, email, message } = formState;
-    const [errorMessage, setErrorMessage] = useState('');
+    // const [formState, setFormState] = useState({ name: '', email: '', message: '',});
+    // const { name, email, message } = formState;
+    // const [errorMessage, setErrorMessage] = useState('');
 
-    function handleChange(e) {
-        if(e.target.name === 'email') {
-            const isValidEmail = validateEmail(e.target.value);
-            if(!isValidEmail) {
-                setErrorMessage('The email entered is invalid.');
-            } else {
-                setErrorMessage('');
-            }
-        } else {
-            if(!e.target.value.length) {
-                setErrorMessage(`${e.target.name} is required!`)
-            } else {
-                setErrorMessage('');
-            }
-        }
-        if(!errorMessage) {
-            setFormState({ ...formState, [e.target.name]: e.target.value });
-        }
-    };
+    // function handleChange(e) {
+    //     if(e.target.name === 'email') {
+    //         const isValidEmail = validateEmail(e.target.value);
+    //         if(!isValidEmail) {
+    //             setErrorMessage('The email entered is invalid.');
+    //         } else {
+    //             setErrorMessage('');
+    //         }
+    //     } else {
+    //         if(!e.target.value.length) {
+    //             setErrorMessage(`${e.target.name} is required!`)
+    //         } else {
+    //             setErrorMessage('');
+    //         }
+    //     }
+    //     if(!errorMessage) {
+    //         setFormState({ ...formState, [e.target.name]: e.target.value });
+    //     }
+    // };
 
-    function handleSubmit(e) {
-        e.preventDefault();
-        alert('This form is in progress, please email me at `alexdmarten@gmail.com` or contact me on LinkedIn');
-    }
+    // function handleSubmit(e) {
+    //     e.preventDefault();
+    //     alert('This form is in progress, please email me at `alexdmarten@gmail.com` or contact me on LinkedIn');
+    // }
 
     return (
-        <div className="container m-5">
+        <div className="container my-5">
             <div className="row justify-content-between">
                 <div className="my-3 col-sm-6 col-md-3">
                     <div className="card">

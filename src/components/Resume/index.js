@@ -1,5 +1,5 @@
 import React from "react";
-import resumePdf from '../../assets/files/Alex_Marten_Web_Developer_Resume.pdf';
+import resumePdf from '../../assets/files/Alex Marten Resume.pdf';
 
 function Resume() {
     return (
@@ -21,7 +21,6 @@ function Resume() {
                                 <li>CSS</li>
                                 <li>Python</li>
                                 <li>PowerShell</li>
-                                <li>C#</li>
                                 <li>SQL</li>
                                 <li>NoSQL (MongoDB)</li>
                                 <li>GraphQL</li>
@@ -46,7 +45,6 @@ function Resume() {
                             <ul>
                                 <li>Git</li>
                                 <li>Heroku</li>
-                                <li>APIs</li>
                                 <li>Windows 7/10/11</li>
                                 <li>Mac OS X</li>
                             </ul>
