@@ -49,7 +49,7 @@ function Project() {
                 <div className="card w-100">
                     <div className="hover-overlay ripple bg-image" data-mdb-ripple-color="light">
                         <img src={lookMeUpImg} className="card-img-top" alt="Look Me Up!"/>
-                        <a href="https://look-meup.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://amarten-look-me-up.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                             <div className="mask" style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}></div>
                         </a>
                     </div>
