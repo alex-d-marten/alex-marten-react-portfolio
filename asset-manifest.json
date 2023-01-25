@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/alex-marten-react-portfolio/static/css/main.f9b7a8fe.css",
-    "main.js": "/alex-marten-react-portfolio/static/js/main.fe30a7e7.js",
+    "main.js": "/alex-marten-react-portfolio/static/js/main.bbae9628.js",
     "static/js/787.17eee8ad.chunk.js": "/alex-marten-react-portfolio/static/js/787.17eee8ad.chunk.js",
     "static/media/got-hops-img.png": "/alex-marten-react-portfolio/static/media/got-hops-img.8b011335de4ad7a28118.png",
     "static/media/profile-pic.jpg": "/alex-marten-react-portfolio/static/media/profile-pic.80b672804411c313f5e2.jpg",
@@ -14,11 +14,11 @@
     "static/media/jot-it-down-img.png": "/alex-marten-react-portfolio/static/media/jot-it-down-img.caa3a7d5cc3e3391b2cb.png",
     "index.html": "/alex-marten-react-portfolio/index.html",
     "main.f9b7a8fe.css.map": "/alex-marten-react-portfolio/static/css/main.f9b7a8fe.css.map",
-    "main.fe30a7e7.js.map": "/alex-marten-react-portfolio/static/js/main.fe30a7e7.js.map",
+    "main.bbae9628.js.map": "/alex-marten-react-portfolio/static/js/main.bbae9628.js.map",
     "787.17eee8ad.chunk.js.map": "/alex-marten-react-portfolio/static/js/787.17eee8ad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f9b7a8fe.css",
-    "static/js/main.fe30a7e7.js"
+    "static/js/main.bbae9628.js"
   ]
 }
