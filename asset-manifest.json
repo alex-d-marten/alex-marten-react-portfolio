@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/alex-marten-react-portfolio/static/css/main.f9b7a8fe.css",
-    "main.js": "/alex-marten-react-portfolio/static/js/main.bbae9628.js",
+    "main.js": "/alex-marten-react-portfolio/static/js/main.db572623.js",
     "static/js/787.17eee8ad.chunk.js": "/alex-marten-react-portfolio/static/js/787.17eee8ad.chunk.js",
+    "static/media/profile-pic.jpeg": "/alex-marten-react-portfolio/static/media/profile-pic.2b2d75123eab460c2b31.jpeg",
     "static/media/got-hops-img.png": "/alex-marten-react-portfolio/static/media/got-hops-img.8b011335de4ad7a28118.png",
-    "static/media/profile-pic.jpg": "/alex-marten-react-portfolio/static/media/profile-pic.80b672804411c313f5e2.jpg",
     "static/media/0nlypets.png": "/alex-marten-react-portfolio/static/media/0nlypets.0a18094f12746d273dcb.png",
     "static/media/look-me-up.png": "/alex-marten-react-portfolio/static/media/look-me-up.24d985302a8e9658086f.png",
-    "static/media/Alex Marten Resume.pdf": "/alex-marten-react-portfolio/static/media/Alex Marten Resume.b8c1331cec84a4d9c7ef.pdf",
+    "static/media/Alex Marten Resume Jan 2024.pdf": "/alex-marten-react-portfolio/static/media/Alex Marten Resume Jan 2024.dfe09d7674c8ebf60370.pdf",
     "static/media/tech-blog-img.png": "/alex-marten-react-portfolio/static/media/tech-blog-img.942651d5294a5a126f62.png",
     "static/media/social-network-api.png": "/alex-marten-react-portfolio/static/media/social-network-api.2ee178a12442f654294d.png",
     "static/media/readme-generator-img.png": "/alex-marten-react-portfolio/static/media/readme-generator-img.929d5fef211d9e89bfa7.png",
     "static/media/jot-it-down-img.png": "/alex-marten-react-portfolio/static/media/jot-it-down-img.caa3a7d5cc3e3391b2cb.png",
     "index.html": "/alex-marten-react-portfolio/index.html",
     "main.f9b7a8fe.css.map": "/alex-marten-react-portfolio/static/css/main.f9b7a8fe.css.map",
-    "main.bbae9628.js.map": "/alex-marten-react-portfolio/static/js/main.bbae9628.js.map",
+    "main.db572623.js.map": "/alex-marten-react-portfolio/static/js/main.db572623.js.map",
     "787.17eee8ad.chunk.js.map": "/alex-marten-react-portfolio/static/js/787.17eee8ad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f9b7a8fe.css",
-    "static/js/main.bbae9628.js"
+    "static/js/main.db572623.js"
   ]
 }
