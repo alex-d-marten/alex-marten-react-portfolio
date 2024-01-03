@@ -15,7 +15,7 @@ function Project() {
                 <div className="card w-100">
                     <div className="hover-overlay ripple bg-image" data-mdb-ripple-color="light">
                         <img src={onlyPetsImg} className="card-img-top" alt="Only Pets MERN Project"/>
-                        <a href="https://alex-d-marten-0nlypets.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://alex-d-marten-0nlypets.herokuapp.com" target="_blank" rel="noopener noreferrer">
                             <div className="mask" style={{ backgroundColor: "rgba(251, 251, 251, 0.15)" }}></div>
                         </a>
                     </div>
