@@ -1,5 +1,5 @@
 import React from "react";
-import resumePdf from '../../assets/files/Alex Marten Resume.pdf';
+import resumePdf from '../../assets/files/Alex Marten Resume Jan 2024.pdf';
 
 function Resume() {
     return (
