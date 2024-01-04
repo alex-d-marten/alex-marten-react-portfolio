@@ -46,9 +46,13 @@ function Resume() {
                         <div className="collapse" id="tools">
                             <ul>
                                 <li>Git</li>
+                                <li>Github</li>
                                 <li>Heroku</li>
                                 <li>Windows 7/10/11</li>
                                 <li>Mac OS X</li>
+                                <li>Jira</li>
+                                <li>VS Code</li>
+                                <li>VS Pro</li>
                             </ul>
                         </div>
                     </li>
