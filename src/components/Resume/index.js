@@ -36,6 +36,8 @@ function Resume() {
                                 <li>Node.js</li>
                                 <li>Express</li>
                                 <li>Sequelize</li>
+                                <li>Tailwind CSS</li>
+                                <li>Bootstrap</li>
                             </ul>
                         </div>
                     </li>
